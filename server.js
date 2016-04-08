@@ -28,7 +28,7 @@ app.use(middleware.logger);
 
 
 app.get('/about', function (request,response) {
-    response.send('About Us');
+    response.send('About Us !');
 });
 
 app.use(express.static(__dirname + '/public'));
